@@ -1,6 +1,8 @@
 # ArChIPelago <img src='./Archipelago.png' width='55'>
 The repository contains scripts for training, validation and plot generation for — ArChIPelago — the arrangement of multiple position weight matrices with ChIP-Seq and machine learning for prediction of transcription factor binding sites.
 
+ The respective data for the project is available on ZENODO [doi:10.5281/zenodo.10515307].
+ 
 ## Before you start
 
 Make sure that you have installed:
