@@ -1,4 +1,4 @@
-# ArChIPelago
+# ArChIPelago <img src="https://github.com/autosome-ru/ArChIPelago/Archipelago.png">
 The repository contains scripts for training, validation and plot generation for — ArChIPelago — the arrangement of multiple position weight matrices with ChIP-Seq and machine learning for prediction of transcription factor binding sites.
 
 ## Before you start
