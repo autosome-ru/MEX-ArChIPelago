@@ -19,8 +19,9 @@ First of all, you have to ```clone``` this directory</br></br>
 ```git clone https://github.com/autosome-ru/ArChIPelago/```</br></br>
 Then ```cd``` in ArChIPelago </br></br>
 ```cd ArChIPelago```</br></br>
-Please use the provided conda ```environment.yml``` to match the environment `</br></br>
+Please use the provided conda ```environment.yml``` to match the environment</br></br>
 ```conda env create -f environment.yml```</br></br>
+```conda activate py3_rpy2_env```</br></br>
 
 # License
 ArChIPelago is distributed under WTFPL. If you prefer more standard licenses, feel free to treat WTFPL as CC-BY.
