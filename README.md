@@ -22,7 +22,7 @@ Then ```cd``` in MEX-ArChIPelago </br></br>
 Please download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO [doi:10.5281/zenodo.10515307] into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br>
 Please provide the hg38 reference genome [https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz] as ```hg38.fa```
 
-### Steps to reproduce the MEX-ARCHIPELAGO analysis
+### Steps to reproduce the MEX-ArChIPelago analysis
 (1) Create the MEX-ArChIPelago environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate py3_rpy2_env```</br></br>
 (2) Refer to <...BIBIS...> repo for BIBIS installation, which will be used to properly generate the train-test data. Upon installation, please run ... <... XXX.sh ...></br></br>
 (3) Generate sequences from the train-test data splits:
