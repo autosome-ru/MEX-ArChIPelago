@@ -20,7 +20,7 @@ Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br>
 (2) Download and unzip the hg38 reference genome ```wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz; gunzip hg38.fa.gz```</br></br>
 
 ### Steps to reproduce the MEX-ArChIPelago analysis
-(1) Create the MEX-ArChIPelago environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate py3_rpy2_env```</br></br>
+(1) Create the MEX-ArChIPelago environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate MEX_ArChIPelago```</br></br>
 
 (2) Refer to <https://github.com/autosome-ru/ibis-challenge> repo for README of the BIBIS package, which will be used to properly generate the train-test data. Please run ```./bibis/XXX.sh``` to process the input data</br></br>
 
