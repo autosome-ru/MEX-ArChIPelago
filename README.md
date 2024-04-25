@@ -16,7 +16,7 @@ Please ```clone``` this directory with ```git clone https://github.com/autosome-
 Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br>
 
 ### Input data organization
-(1) Download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO <doi:10.5281/zenodo.10515307> into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
+(1) Download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO ```doi:10.5281/zenodo.10515307``` into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
 (2) Download and unzip the hg38 reference genome ```wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz; gunzip hg38.fa.gz```</br></br>
 
 ### Steps to reproduce the MEX-ArChIPelago analysis
