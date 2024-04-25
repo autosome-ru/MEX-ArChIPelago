@@ -1,4 +1,4 @@
-name: py3_rpy2_env
+name: MEX_ArChIPelago
 channels:
   - anaconda
   - conda-forge
