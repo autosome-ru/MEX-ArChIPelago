@@ -1,5 +1,5 @@
 # ArChIPelago <img src='./Archipelago.png' width='55'>
-This repository allows reproducing the MEX-ARCHIPELAGO analysis. It contains scripts for sequences generation, model training/testing and plot generation for — ArChIPelago [ARCHIPELAGO rep link] — the arrangement of multiple position weight matrices with ChIP-Seq and machine learning for prediction of transcription factor binding sites.
+This repository allows reproducing the MEX-ArChIPelago analysis. It contains scripts for sequences generation, model training/testing and plot generation for — ArChIPelago [ArChIPelago rep link] — the arrangement of multiple position weight matrices with ChIP-Seq and machine learning for prediction of transcription factor binding sites.
 </br>
  
 ## Before you start
@@ -14,15 +14,15 @@ Make sure that you have installed:
 ## Getting started
 
 Please ```clone``` this directory</br></br>
-```git clone https://github.com/autosome-ru/ArChIPelago/```</br></br>
-Then ```cd``` in ArChIPelago </br></br>
-```cd ArChIPelago```</br></br>
+```git clone https://github.com/autosome-ru/MEX-ArChIPelago/```</br></br>
+Then ```cd``` in MEX-ArChIPelago </br></br>
+```cd MEX-ArChIPelago```</br></br>
 
 ### Input data organization
-Please download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO [doi:10.5281/zenodo.10515307] into ```Input_data``` directory and move it into ```ArChIPelago```
+Please download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO [doi:10.5281/zenodo.10515307] into ```Input_data``` directory and move it into ```MEX-ArChIPelago```
 
 ### Steps to reproduce the MEX-ARCHIPELAGO analysis
-(1) Create the MEX-ARCHIPELAGO environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate py3_rpy2_env```</br></br>
+(1) Create the MEX-ArChIPelago environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate py3_rpy2_env```</br></br>
 (2) Refer to <...BIBIS...> repo for BIBIS installation, which will be used to properly generate the train-test data. Upon installation, please run ... <... XXX.sh ...></br></br>
 (3) Generate sequences from the train-test data splits:
 - 1
