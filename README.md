@@ -32,6 +32,7 @@ Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br>
 (4) Train PWM-based models and classify sequences containing TFBSs:
 -  ```3.1_Archipelago_training.ipynb``` - uses identified motif scores as features for RandomForestClassifier models</br></br>
 -  ```3.2_Archipelago_training_with_PWM_sampling.ipynb``` - same as previous but allowes PWM sampling and saturation probing</br></br>
+- To estimate the ArChIPelago performance with auROC and auPRC metrics, we complement the repository with scanning_tool.py from PRROC R package [Grau, J., Grosse, I. & Keilwagen, J. PRROC: computing and visualizing precision-recall and receiver operating characteristic curves in R. Bioinformatics 31, 2595–2597 (2015)]</br></br>
 
 (5) Collect model performances and visualize results:
 -  ```4.1_Metrics_data_collector.ipynb``` - the script for collection of model performances from 3.1_Archipelago_training.ipynb</br></br>
