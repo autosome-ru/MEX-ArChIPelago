@@ -13,7 +13,8 @@ Make sure that you have installed:
 ## Getting started
 
 Please ```clone``` this directory with ```git clone https://github.com/autosome-ru/MEX-ArChIPelago/```</br></br>
-Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br>
+Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br></br>
+Install SARUS folowing instructions in ```sarus``` directory or in <https://github.com/autosome-ru/sarus></br>
 
 ### Input data organization
 (1) Download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO ```doi:10.5281/zenodo.10515307``` into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
