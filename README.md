@@ -13,12 +13,13 @@ Make sure that you have installed:
 ## Getting started
 
 Please ```clone``` this directory with ```git clone https://github.com/autosome-ru/MEX-ArChIPelago/```</br></br>
-Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br>
+Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br></br>
+Install SARUS folowing instructions in ```sarus``` directory or in <https://github.com/autosome-ru/sarus></br>
 
 ### Input data organization
 (1) Download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO ```doi:10.5281/zenodo.10515307``` into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
 (2) Download and unzip the hg38 reference genome ```wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz; gunzip hg38.fa.gz```</br></br>
-(3) Download PWMs for TFs from IBIS website <https://ibis.autosome.org> (Data download) and move it to ```PWM``` directory with ```GHTS``` and ```CHS``` subfolders
+(3) Download top 20 PWMs for TFs from IBIS website <https://ibis.autosome.org> (Data download) and move it to ```PWM``` directory with ```GHTS``` and ```CHS``` subfolders
 
 ### Steps to reproduce the MEX-ArChIPelago analysis
 (1) Create the MEX-ArChIPelago environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate MEX_ArChIPelago```</br></br>
