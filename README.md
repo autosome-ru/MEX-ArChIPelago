@@ -45,7 +45,7 @@ _Note: SARUS is written in Java (hence it requires JRE)._</br></br>
 # Citing
 Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors
 Ilya E. Vorontsov, Ivan Kozin, Sergey Abramov, Alexandr Boytsov, Arttu Jolma, Mihai Albu, Giovanna Ambrosini, Katerina Faltejskova, Antoni J. Gralak, Nikita Gryzunov, Sachi Inukai, Semyon Kolmykov, Pavel Kravchenko, Judith F. Kribelbauer-Swietek, Kaitlin U. Laverty, Vladimir Nozdrin, Zain M. Patel, Dmitry Penzar, Marie-Luise Plescher, Sara E. Pour, Rozita Razavi, Ally W.H. Yang, Ivan Yevshin, Arsenii Zinkevich, Matthew T. Weirauch, Philipp Bucher, Bart Deplancke, Oriol Fornes, Jan Grau, Ivo Grosse, Fedor A. Kolpakov, The Codebook/GRECO-BIT Consortium, Vsevolod J. Makeev, Timothy R. Hughes, Ivan V. Kulakovskiy;
-_bioRxiv_ 2024.11.11.619379; doi: https://doi.org/10.1101/2024.11.11.619379 
+_bioRxiv_ 2024.11.11.619379; [https://doi.org/10.1101/2024.11.11.619379]
 </br></br>
 
 # License
