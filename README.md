@@ -41,7 +41,9 @@ Install SARUS folowing instructions in ```sarus``` directory or in <https://gith
 -  Use ```R_scripts_for_visualization``` to reproduce Fig 3, Fig. S5, Fig. S6</br></br>
 
 # Citing
-TBA
+Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors
+Ilya E. Vorontsov, Ivan Kozin, Sergey Abramov, Alexandr Boytsov, Arttu Jolma, Mihai Albu, Giovanna Ambrosini, Katerina Faltejskova, Antoni J. Gralak, Nikita Gryzunov, Sachi Inukai, Semyon Kolmykov, Pavel Kravchenko, Judith F. Kribelbauer-Swietek, Kaitlin U. Laverty, Vladimir Nozdrin, Zain M. Patel, Dmitry Penzar, Marie-Luise Plescher, Sara E. Pour, Rozita Razavi, Ally W.H. Yang, Ivan Yevshin, Arsenii Zinkevich, Matthew T. Weirauch, Philipp Bucher, Bart Deplancke, Oriol Fornes, Jan Grau, Ivo Grosse, Fedor A. Kolpakov, The Codebook/GRECO-BIT Consortium, Vsevolod J. Makeev, Timothy R. Hughes, Ivan V. Kulakovskiy
+bioRxiv 2024.11.11.619379; doi: https://doi.org/10.1101/2024.11.11.619379 
 </br></br>
 
 # License
