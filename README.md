@@ -14,7 +14,7 @@ Make sure that you have installed:
 
 Please ```clone``` this directory with ```git clone https://github.com/autosome-ru/MEX-ArChIPelago/```</br></br>
 Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br></br>
-Install the SARUS PWM scanner following the instructions at <https://github.com/autosome-ru/sarus></br>
+Install the SARUS PWM scanner into `./sarus` directory, copying the `sarus.jar`-file should be enough; see also the instructions at <https://github.com/autosome-ru/sarus></br>
 _Note: SARUS is written in Java (hence it requires JRE)._
 
 ### Input data organization
