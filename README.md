@@ -15,10 +15,10 @@ Make sure that you have installed:
 Please ```clone``` this directory with ```git clone https://github.com/autosome-ru/MEX-ArChIPelago/```</br></br>
 Then ```cd``` in MEX-ArChIPelago: ```cd MEX-ArChIPelago```</br></br>
 Install the SARUS PWM scanner into `./sarus` directory, copying the `sarus.jar`-file should be enough; see also the instructions at <https://github.com/autosome-ru/sarus></br>
-_Note: SARUS is written in Java (hence it requires JRE)._
+_Note: SARUS is written in Java (hence it requires JRE)._</br></br>
 
 ### Input data organization
-(1) Download and unpack GHT-SELEX and ChIP-Seq peaks from ZENODO ```doi:10.5281/zenodo.10515307``` into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
+(1) Download and unpack GHT-SELEX and ChIP-Seq peaks and the respective negative sets from ZENODO ```doi:10.5281/zenodo.10515307``` into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
 (2) Download and unzip the hg38 reference genome ```wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz; gunzip hg38.fa.gz```</br></br>
 (3) (Optionally) Download top 20 PWMs for TFs from Codebook Motif Explorer <https://mex.autosome.org> (Data download) and move it to ```best_20_motif_CHS_GHTS``` directory with ```GHTS``` and ```CHS``` subfolders (already provided in the repo).
 
