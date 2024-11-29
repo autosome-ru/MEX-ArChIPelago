@@ -45,6 +45,8 @@ MEX-ArChIPelago was developed and tested on Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0
 -  ```4.2_Violin_plot_data_collector.ipynb``` - the script for collection of model performances from 3.2_Archipelago_training_with_PWM_sampling.ipynb</br></br>
 -  Use ```R_scripts_for_visualization``` to reproduce Fig 3, Fig. S5, Fig. S6</br></br>
 
+For DEMO tests use ["GABPA"] instead of TFs_CHS_AFS.
+
 # Citing
 Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors
 Ilya E. Vorontsov, Ivan Kozin, Sergey Abramov, Alexandr Boytsov, Arttu Jolma, Mihai Albu, Giovanna Ambrosini, Katerina Faltejskova, Antoni J. Gralak, Nikita Gryzunov, Sachi Inukai, Semyon Kolmykov, Pavel Kravchenko, Judith F. Kribelbauer-Swietek, Kaitlin U. Laverty, Vladimir Nozdrin, Zain M. Patel, Dmitry Penzar, Marie-Luise Plescher, Sara E. Pour, Rozita Razavi, Ally W.H. Yang, Ivan Yevshin, Arsenii Zinkevich, Matthew T. Weirauch, Philipp Bucher, Bart Deplancke, Oriol Fornes, Jan Grau, Ivo Grosse, Fedor A. Kolpakov, The Codebook/GRECO-BIT Consortium, Vsevolod J. Makeev, Timothy R. Hughes, Ivan V. Kulakovskiy;
