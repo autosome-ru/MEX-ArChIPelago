@@ -20,12 +20,14 @@ _Note: SARUS is written in Java (hence it requires JRE)._</br></br>
 ### Input data organization
 (1) Download and unpack GHT-SELEX and ChIP-Seq peaks and the respective negative sets from ZENODO ```doi:10.5281/zenodo.10515307``` into ```Input_data``` directory and move it into ```MEX-ArChIPelago``` </br></br>
 (2) Download and unzip the hg38 reference genome ```wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz; gunzip hg38.fa.gz```</br></br>
-(3) (Optionally) Download top 20 PWMs for TFs from Codebook Motif Explorer <https://mex.autosome.org> (Data download) and move it to ```best_20_motif_CHS_GHTS``` directory with ```GHTS``` and ```CHS``` subfolders (already provided in the repo).
+(3) (Optionally) Download top 20 PWMs for TFs from Codebook Motif Explorer <https://mex.autosome.org> (Data download) and move it to ```best_20_motif_CHS_GHTS``` directory with ```GHTS``` and ```CHS``` subfolders (already provided in the repo).</br></br>
 
 
 ### Steps to reproduce the MEX-ArChIPelago analysis
 
 MEX-ArChIPelago was developed and tested on Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-113-generic x86_64). The model training process utilized 100 AMD EPYC 7662 64-Core Processor cores, with a total runtime of approximately 10 hours for training across all transcription factors (TFs).
+
+**For DEMO tests use ["GABPA"] instead of TFs_CHS_AFS.**
 
 (1) Create the MEX-ArChIPelago environment by running ```conda env create -f environment.yml``` and activate it with ```conda activate MEX_ArChIPelago```</br></br>
 
@@ -44,8 +46,6 @@ MEX-ArChIPelago was developed and tested on Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0
 -  ```4.1_Metrics_data_collector.ipynb``` - the script for collection of model performances from 3.1_Archipelago_training.ipynb</br></br>
 -  ```4.2_Violin_plot_data_collector.ipynb``` - the script for collection of model performances from 3.2_Archipelago_training_with_PWM_sampling.ipynb</br></br>
 -  Use ```R_scripts_for_visualization``` to reproduce Fig 3, Fig. S5, Fig. S6</br></br>
-
-For DEMO tests use ["GABPA"] instead of TFs_CHS_AFS.
 
 # Citing
 Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors
