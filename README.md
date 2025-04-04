@@ -1,6 +1,9 @@
 # MEX-ArChIPelago <img src='./Archipelago.png' width='55'>
 This repository allows reproducing the MEX-ArChIPelago analysis. It contains scripts for sequences generation, model training/testing, and plot generation for — ArChIPelago <https://github.com/autosome-ru/ArChIPelago> — the arrangement of multiple position weight matrices with ChIP-Seq and machine learning for prediction of transcription factor binding sites.
-</br>
+</br></br>
+
+```Figures_source_data``` have the necessary raw data files and code for figures reproduction.</br></br>
+
  
 ## Before you start
 
